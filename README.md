@@ -1,4 +1,4 @@
 README
 ======
 
-Repozytorium na projekty na Architekture Systemów Internetowych
+Repozytorium na projekty na Architektury Systemów Internetowych
