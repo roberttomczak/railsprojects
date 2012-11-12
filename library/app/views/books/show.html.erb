@@ -3,7 +3,10 @@
   <h1><%=t '.title', :default => model_class.model_name.human %></h1>
 </div>
 
+<strong><%= image_tag @book.cover.url(:medium) %></strong>
+
 <dl class="dl-horizontal">
+  <!--<dt><strong><%= image_tag @book.cover.url(:medium) %></strong></dt>-->
   <dt><strong><%= model_class.human_attribute_name(:author) %>:</strong></dt>
   <dd><%= @book.author %></dd>
   <dt><strong><%= model_class.human_attribute_name(:title) %>:</strong></dt>

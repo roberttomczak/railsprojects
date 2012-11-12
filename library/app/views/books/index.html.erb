@@ -5,7 +5,7 @@
 <table class="table table-striped">
   <thead>
     <tr>
-      
+      <th><%= model_class.human_attribute_name(:cover) %></th>
       <th><%= model_class.human_attribute_name(:author) %></th>
       <th><%= model_class.human_attribute_name(:title) %></th>
       <th><%= model_class.human_attribute_name(:isbn) %></th>
@@ -17,12 +17,15 @@
   <tbody>
     <% @books.each do |book| %>
       <tr>
+	<td><%= image_tag book.cover.url(:thumb) %></td>
         <td><%= book.author %></td>
         <td><%= book.title %></td>
         <td><%= book.isbn %></td>
         <td><%= book.price %></td>
         
         <td>
+	  <%= link_to t('.show', :default => t("helpers.links.show")),
+                      book_path(book), :class => 'btn btn-mini' %>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_book_path(book), :class => 'btn btn-mini' %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
