@@ -26,6 +26,8 @@
         <td><%= book.address %></td>
         <td><%=l book.created_at %></td>
         <td>
+	  <%= link_to t('.show', :default => t("helpers.links.show")),
+                      book_path(book), :class => 'btn btn-mini' %>
           <%= link_to t('.edit', :default => t("helpers.links.edit")),
                       edit_book_path(book), :class => 'btn btn-mini' %>
           <%= link_to t('.destroy', :default => t("helpers.links.destroy")),
