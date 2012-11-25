@@ -5,7 +5,7 @@
 <table class="table table-striped">
   <thead>
     <tr>
-     <!-- <th><%= model_class.human_attribute_name(:id) %></th>-->
+      <!-- <th><%= model_class.human_attribute_name(:id) %></th>-->
       <th><%= model_class.human_attribute_name(:name) %></th>
       <th><%= model_class.human_attribute_name(:lastname) %></th>
       <th><%= model_class.human_attribute_name(:telephone) %></th>
@@ -20,13 +20,15 @@
   <tbody>
     <% @books.each do |book| %>
       <tr>
-        <td><%= link_to book.id, book_path(book) %></td>
+        <!--<td><%= link_to book.id, book_path(book) %></td>-->
         <td><%= book.name %></td>
         <td><%= book.lastname %></td>
         <td><%= book.telephone %></td>
         <td><%= book.city %></td>
         <td><%= book.address %></td>
-        <td><%=l book.created_at %></td>
+	<td><%= book.latitude %></td>
+	<td><%= book.longitude %></td>
+        <!--<td><%=l book.created_at %></td>-->
         <td>
 	  <%= link_to t('.show', :default => t("helpers.links.show")),
                       book_path(book), :class => 'btn btn-mini' %>

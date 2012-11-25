@@ -7,7 +7,7 @@
   <%= f.input :latitude %>
   <%= f.input :longitude %>
   <div class="form-actions">
-    <%= f.button :submit, :class => 'btn-primary' %>
+    <%= f.button :submit ,"Add person", :class => 'btn-primary' %>
     <%= link_to t('.cancel', :default => t("helpers.links.cancel")),
                 books_path, :class => 'btn' %>
   </div>
