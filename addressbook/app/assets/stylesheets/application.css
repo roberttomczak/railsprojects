@@ -11,8 +11,17 @@
  *= require_self
  *= require_tree .
  */
+ 
+ 
+/*html body{
 
+	
+	#background-image:url(/debutdark.png);
+	#background-color: red;
+}
+*/
 body{
 
     margin-top:50px;
+    
 }
