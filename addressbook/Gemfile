@@ -19,7 +19,7 @@ group :assets do
   gem 'twitter-bootstrap-rails', '~> 2.1.4'
   gem 'jquery-ui-rails', '~> 2.0.2'
   gem 'jquery-datatables-rails', '~> 1.11.1'
-
+  gem 'less-rails', '~> 2.2.6'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
@@ -34,7 +34,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 2.11.0'
 end
 
-gem 'less-rails', '~> 2.2.6'
+
 gem 'therubyracer', '~> 0.10.2'
 
 gem 'thin'
