@@ -7184,3 +7184,813 @@ ActionController::RoutingError (No route matches [GET] "/assets/debutdar.png"):
   script/rails:6:in `<main>'
 
 
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 153.19.5.179 at 2013-01-18 15:20:47 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 456ms (Views: 455.5ms | ActiveRecord: 0.0ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/debutdar.png"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books" for 153.19.5.179 at 2013-01-18 15:20:51 +0100
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (79.2ms)[0m  [1mSELECT "books".* FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 531ms (Views: 105.3ms | ActiveRecord: 317.3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books/2/edit" for 153.19.5.179 at 2013-01-18 15:20:55 +0100
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+Redirected to http://sigma.ug.edu.pl:16700/
+Filter chain halted as :login_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.19.5.179 at 2013-01-18 15:20:55 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books" for 153.19.5.179 at 2013-01-18 15:20:57 +0100
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (120.4ms)[0m  SELECT "books".* FROM "books" 
+  Rendered books/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 224ms (Views: 102.6ms | ActiveRecord: 120.4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books/2" for 153.19.5.179 at 2013-01-18 15:20:58 +0100
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (39.6ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered books/show.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 140ms (Views: 97.8ms | ActiveRecord: 39.6ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books" for 153.19.5.179 at 2013-01-18 15:21:00 +0100
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (118.7ms)[0m  SELECT "books".* FROM "books" 
+  Rendered books/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 210ms (Views: 89.9ms | ActiveRecord: 118.7ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started DELETE "/books/2" for 153.19.5.179 at 2013-01-18 15:21:14 +0100
+Processing by BooksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"/gxrzfp0CZWFA6fkX96vWpns6ai8RNm6sqXPPhjRiA0=", "id"=>"2"}
+Redirected to http://sigma.ug.edu.pl:16700/
+Filter chain halted as :login_required rendered or redirected
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.19.5.179 at 2013-01-18 15:21:14 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 62ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/auth/twitter" for 153.19.5.179 at 2013-01-18 15:21:16 +0100
+
+
+Started GET "/auth/twitter/callback?oauth_token=y0RbF1t2q6X6wySi8IRTsC2pLbhowwGfGUVugGCO9A&oauth_verifier=i6KLcHTGk6PPPtQnYoFb6Zl4bktteywgvYn10Lo7mA" for 153.19.5.179 at 2013-01-18 15:21:38 +0100
+Processing by SessionsController#create as HTML
+  Parameters: {"oauth_token"=>"y0RbF1t2q6X6wySi8IRTsC2pLbhowwGfGUVugGCO9A", "oauth_verifier"=>"i6KLcHTGk6PPPtQnYoFb6Zl4bktteywgvYn10Lo7mA", "provider"=>"twitter"}
+  [1m[36mUser Load (98.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."provider" = 'twitter' AND "users"."uid" = '202667791' LIMIT 1[0m
+Redirected to http://sigma.ug.edu.pl:16700/
+Completed 302 Found in 291ms (ActiveRecord: 216.9ms)
+
+
+Started GET "/" for 153.19.5.179 at 2013-01-18 15:21:40 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+  [1m[35mUser Load (123.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 142ms (Views: 18.5ms | ActiveRecord: 123.2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books" for 153.19.5.179 at 2013-01-18 15:21:42 +0100
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (120.7ms)[0m  [1mSELECT "books".* FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (3.9ms)
+  [1m[35mUser Load (118.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 339ms (Views: 98.0ms | ActiveRecord: 239.5ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books/2" for 153.19.5.179 at 2013-01-18 15:21:45 +0100
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (118.1ms)[0m  [1mSELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered books/show.html.erb within layouts/application (2.9ms)
+  [1m[35mUser Load (115.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 449ms (Views: 214.0ms | ActiveRecord: 233.9ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books" for 153.19.5.179 at 2013-01-18 15:21:47 +0100
+Processing by BooksController#index as HTML
+  [1m[36mBook Load (118.1ms)[0m  [1mSELECT "books".* FROM "books" [0m
+  Rendered books/index.html.erb within layouts/application (4.1ms)
+  [1m[35mUser Load (119.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 1]]
+Completed 200 OK in 417ms (Views: 178.2ms | ActiveRecord: 237.3ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books/2/edit" for 153.19.5.179 at 2013-01-18 15:21:49 +0100
+Processing by BooksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mUser Load (118.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBook Load (119.4ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered books/_form.html.erb (372.1ms)
+  Rendered books/edit.html.erb within layouts/application (382.7ms)
+Completed 200 OK in 871ms (Views: 632.3ms | ActiveRecord: 237.4ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started PUT "/books/2" for 153.19.5.179 at 2013-01-18 15:22:30 +0100
+Processing by BooksController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/gxrzfp0CZWFA6fkX96vWpns6ai8RNm6sqXPPhjRiA0=", "book"=>{"name"=>"Robert", "lastname"=>"Tomczak", "telephone"=>"5543123", "city"=>"Sopot", "address"=>"Sopot, Boh. Monte Cassino 5", "latitude"=>"54.4379369", "longitude"=>"18.5596562"}, "commit"=>"Add person", "id"=>"2"}
+  [1m[36mUser Load (119.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mBook Load (78.7ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (205.4ms)[0m  UPDATE "books" SET "address" = 'Sopot, Boh. Monte Cassino 5', "latitude" = 54.4431854, "longitude" = 18.5603577, "updated_at" = '2013-01-18 14:22:30.607553' WHERE "books"."id" = 2
+  [1m[36m (192.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://sigma.ug.edu.pl:16700/books/2
+Completed 302 Found in 763ms (ActiveRecord: 596.5ms)
+
+
+Started GET "/books/2" for 153.19.5.179 at 2013-01-18 15:22:31 +0100
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mBook Load (116.8ms)[0m  SELECT "books".* FROM "books" WHERE "books"."id" = ? LIMIT 1  [["id", "2"]]
+  Rendered books/show.html.erb within layouts/application (2.5ms)
+  [1m[36mUser Load (120.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 336ms (Views: 97.6ms | ActiveRecord: 237.2ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/books" for 153.19.5.179 at 2013-01-18 15:22:36 +0100
+Processing by BooksController#index as HTML
+  [1m[35mBook Load (48.8ms)[0m  SELECT "books".* FROM "books" 
+  Rendered books/index.html.erb within layouts/application (3.9ms)
+  [1m[36mUser Load (119.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+Completed 200 OK in 319ms (Views: 149.7ms | ActiveRecord: 168.0ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/signout" for 153.19.5.179 at 2013-01-18 15:22:45 +0100
+Processing by SessionsController#destroy as HTML
+Redirected to http://sigma.ug.edu.pl:16700/
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.19.5.179 at 2013-01-18 15:22:45 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
+
+
+Started GET "/" for 153.19.5.179 at 2013-01-18 15:23:00 +0100
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+ActionController::RoutingError (No route matches [GET] "/assets/images/favicon.ico"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.1) lib/quiet_assets.rb:20:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  thin (1.5.0) lib/thin/connection.rb:81:in `block in pre_process'
+  thin (1.5.0) lib/thin/connection.rb:79:in `catch'
+  thin (1.5.0) lib/thin/connection.rb:79:in `pre_process'
+  thin (1.5.0) lib/thin/connection.rb:54:in `process'
+  thin (1.5.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run_machine'
+  eventmachine (1.0.0) lib/eventmachine.rb:187:in `run'
+  thin (1.5.0) lib/thin/backends/base.rb:63:in `start'
+  thin (1.5.0) lib/thin/server.rb:159:in `start'
+  rack (1.4.1) lib/rack/handler/thin.rb:13:in `run'
+  rack (1.4.1) lib/rack/server.rb:265:in `start'
+  railties (3.2.9) lib/rails/commands/server.rb:70:in `start'
+  railties (3.2.9) lib/rails/commands.rb:55:in `block in <top (required)>'
+  railties (3.2.9) lib/rails/commands.rb:50:in `tap'
+  railties (3.2.9) lib/rails/commands.rb:50:in `<top (required)>'
+  script/rails:6:in `require'
+  script/rails:6:in `<main>'
+
+
